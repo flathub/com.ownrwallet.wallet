@@ -1,9 +1,9 @@
 app-id: com.ownrwallet.wallet
 runtime: org.freedesktop.Platform
-runtime-version: "21.08"
+runtime-version: '21.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: "21.08"
+base-version: '21.08'
 command: ownrwallet
 separate-locales: false
 rename-icon: ownrwallet
@@ -22,13 +22,13 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://desktop-ownrwallet.s3.eu-central-1.amazonaws.com/linux/ownr-wallet-desktop_2.1.10_linux_amd64.deb
-        sha256: 2071c14a43a561e255284bd47f174e05fbfe6759d851c3e564e2b4e2db473da7
+        url: https://desktop-ownrwallet.s3.eu-central-1.amazonaws.com/linux/ownr-wallet-desktop_2.1.13_linux_amd64.deb
+        sha256: 1851249b0ba165ae40d927c9df5980c01bbb4f82802f49200bba3e9a8060fe96
         x-checker-data:
           type: html
-          url: "https://ownrwallet.com/changelog"
-          version-pattern: "([\\d\\.-]*) \\(Latest\\)"
-          url-template: "https://desktop-ownrwallet.s3.eu-central-1.amazonaws.com/linux/ownr-wallet-desktop_${version}_linux_amd64.deb"
+          url: https://ownrwallet.com/changelog
+          version-pattern: ([\d\.-]*) \(Latest\)
+          url-template: https://desktop-ownrwallet.s3.eu-central-1.amazonaws.com/linux/ownr-wallet-desktop_${version}_linux_amd64.deb
       - type: script
         dest-filename: ownrwallet.sh
         commands:
