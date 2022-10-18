@@ -22,8 +22,8 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://desktop-ownrwallet.s3.eu-central-1.amazonaws.com/linux/ownr-wallet-desktop_2.3.4_linux_amd64.deb
-        sha256: 4d6ea3fdf0e9263bedaa1694cd1333c52ce616ae897d2a039a0c502e36cc40d2
+        url: https://desktop-ownrwallet.s3.eu-central-1.amazonaws.com/linux/ownr-wallet-desktop_2.3.5_linux_amd64.deb
+        sha256: a94960d9b1f98acbd22d865e864cd853198a0d3ad25c20913ee69e78ab6ba7ba
         x-checker-data:
           type: html
           url: https://ownrwallet.com/changelog
