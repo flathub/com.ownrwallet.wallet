@@ -8,6 +8,7 @@
   <url type="faq">https://ownrwallet.com/support</url>
   <url type="help">https://ownrwallet.freshdesk.com/support/tickets/new</url>
   <project_license>LicenseRef-proprietary=https://ownrwallet.com/terms</project_license>
+  <launchable type="desktop-id">com.ownrwallet.wallet.desktop</launchable>
   <description>
     <p>OWNR is a cryptocurrency ecosystem devised for cryptocurrency users, businesses and developers. Buy, sell, send, store and exchange crypto in one free app: BTC, BCH, ETH, LTC, DASH, DOGE, Tron (TRX), USDT (ERC-20/TRC-20) and other ERC-20 tokens.</p>
     <p>Manage all crypto and Visa card in a single app, swiftly and simply.</p>
@@ -52,7 +53,7 @@
     <p>BTC, BCH, ETH, LTC, DASH, DOGE, Tron (TRX), USDT (ERC-20/TRC-20) and other ERC-20 tokens. The list is being expanded.</p>
   </description>
   <screenshots>
-    <screenshot>
+    <screenshot type="default">
       <caption>OWNR WALLET Overview 1</caption>
       <image type="source">https://desktop-ownrwallet.s3.eu-central-1.amazonaws.com/images/store_1.png</image>
     </screenshot>
@@ -66,6 +67,7 @@
     </screenshot>
   </screenshots>
   <releases>
+    <release version="2.5.0" date="2023-04-26" />
     <release version="2.3.11" date="2023-02-22"/>
     <release version="2.3.10" date="2023-02-09"/>
     <release version="2.3.9" date="2022-12-23"/>
@@ -89,9 +91,6 @@
     <release version="2.1.10" date="2022-02-16"/>
   </releases>
   <metadata_license>CC0-1.0</metadata_license>
-  <provides>
-    <id>com.ownrwallet.wallet</id>
-  </provides>
   <update_contact>product@ownrwallet.com</update_contact>
   <content_rating type="oars-1.0">
     <content_attribute id="social-info">mild</content_attribute>
