@@ -1,9 +1,9 @@
 app-id: com.ownrwallet.wallet
 runtime: org.freedesktop.Platform
-runtime-version: '21.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '21.08'
+base-version: '23.08'
 command: ownrwallet
 separate-locales: false
 rename-icon: ownrwallet
@@ -13,7 +13,6 @@ finish-args:
   - --socket=x11
   - --share=network
   - --device=dri
-  - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.kde.StatusNotifierWatcher
 modules:
   - name: ownrwallet
@@ -22,8 +21,8 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://desktop-ownrwallet.s3.eu-central-1.amazonaws.com/linux/ownr-wallet-desktop_2.3.11_linux_amd64.deb
-        sha256: 5ffad2e39303635aac81ab9e51d30cc0f5bada7b2f5a3f3b1b4c551d4ebc5b1f
+        url: https://desktop-ownrwallet.s3.eu-central-1.amazonaws.com/linux/ownr-wallet-desktop_2.5.0_linux_amd64.deb
+        sha256: 6a17786bbcb4b21d3fdd94f04f169f4ea2af2e8d2136570440d982742f4f7632
         x-checker-data:
           type: html
           url: https://ownrwallet.com/changelog
